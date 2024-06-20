@@ -1,0 +1,76 @@
+.logContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* background-color: #e0e0e0;*/
+}
+
+.logForm {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  height: 450px;
+  text-align: center;
+  box-sizing: border-box;
+  /* Ensures padding is included in the element's total width */
+}
+
+.logHeading {
+  margin-bottom: 1.5rem;
+  font-size: 24px;
+  color: #333;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #555;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+  /* Ensures padding is included in the element's total width */
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.logButton {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-sizing: border-box;
+  /* Ensures padding is included in the element's total width */
+}
+
+.logButton:hover {
+  background-color: #0056b3;
+}
+
+.logError {
+  margin-top: 1rem;
+  color: #ff0000;
+}
